@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário Pokedex</h1>
+    <form>
+        <section>
+            <h2>Número na Pokedex</h2>
+            <input type="number" name="número na Pokedex" id= "numero-pokedex" step= "1">
+        </section>
+        <section>
+            <h2>Nome do Pokémon</h2>
+            <label for="nome">Nome do pokemon</label>
+            <input type="text" name="nome do pokémon" id= "campo-de-nome" value="">
+        </section>
+        <section>
+            <h2>Tipo</h2>
+            <fieldset>
+                <legend>Quais os tipos do pokemon?</legend>
+                <ul>
+                    <li>
+                        <input type="checkbox" name="aço" id="aço" value="aço" >
+                        <label for="aço">Aço</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="água" id="água" value="água">
+                        <label for="agua">Água</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="dragão" id="dragão" value="dragão">
+                        <label for="dragão">Dragão</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="elétrico" id="elétrico" value="elétrico" >
+                        <label for="eletrico">Elétrico</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="fada" id="fada" value="fada">
+                        <label for="fada">Fada</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="fantasma" id="fantasma" value="fantasma">
+                        <label for="fantasma">Fantasma</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="fogo" id="fogo" value="fogo" >
+                        <label for="fogo">Fogo</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="gelo" id="gelo" value="gelo">
+                        <label for="gelo">Gelo</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="inseto" id="inseto" value="inseto">
+                        <label for="inseto">Inseto</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="lutador" id="lutador" value="lutador" >
+                        <label for="lutador">Lutador</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="normal" id="normal" value="normal">
+                        <label for="normal">Normal</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="pedra" id="pedra" value="pedra">
+                        <label for="pedra">Pedra</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="planta" id="planta" value="planta" >
+                        <label for="planta">Planta</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="psíquico" id="psíquico" value="psíquico">
+                        <label for="psíquico">Psíquico</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="sombrio" id="sombrio" value="sombrio">
+                        <label for="sombrio">Sombrio</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="terra" id="terra" value="terra">
+                        <label for="terra">Terra</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="venenoso" id="venenoso" value="venenoso">
+                        <label for="venenoso">Venenoso</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="voador" id="voador" value="voador">
+                        <label for="voador">Voador</label>
+                    </li>
+                </ul>
+            </fieldset>
+        </section>
+        <section>
+            <h2>Total</h2>
+            <input type="number" name="total" id= "total" step= "1">
+        </section>
+        <section>
+            <h2>HP</h2>
+            <input type="number" name="hp" id= "hp" step= "1" min="1" max="255">
+        </section>
+        <section>
+            <h2>Ataque</h2>
+            <input type="number" name="ataque" id= "ataque" step= "1">
+        </section>
+        <section>
+            <h2>Defesa</h2>
+            <input type="number" name="defesa" id= "defesa" step= "1">
+        </section>
+        <section>
+            <h2>Ataque Especial</h2>
+            <input type="number" name="ataque_especial" id= "ataque_especial" step= "1">
+        </section>
+        <section>
+            <h2>Defesa Especial</h2>
+            <input type="number" name="defesa_especial" id= "defesa_especial" step= "1">
+        </section>
+        <section>
+            <h2>Velocidade</h2>
+            <input type="number" name="velocidade" id= "velocidade" step= "1">
+        </section>
+        <section>
+            <h2>Geração</h2>
+            <fieldset>
+                <legend>De qual geração é o Pokémon?</legend>
+                <ul>
+                    <li>
+                        <input type="radio" name="geracao" id="primeira" >
+                        <label for="primeira">Primeira</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="geracao" id="segunda">
+                        <label for="segunda">Segunda</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="geracao" id="terceira">
+                        <label for="terceira">Terceira</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="geracao" id="quarta">
+                        <label for="quarta">Quarta</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="geracao" id="quinta">
+                        <label for="quinta">Quinta</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="geracao" id="sexta">
+                        <label for="sexta">Sexta</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="geracao" id="Sétima">
+                        <label for="sétima">Sétima</label>
+                    </li>
+                </ul>
+            </fieldset>
+        </section>
+        <section>
+            <h2>Lendário?</h2>
+            <fieldset>
+                <legend>Ele é lendário?</legend>
+                <ul>
+                    <li>
+                        <input type="radio" name="lendario" id="sim" checked>
+                        <label for="sim">Sim</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="lendario" id="não">
+                        <label for="não">Não</label>
+        </section>
+        <section>
+            <h2>Qual a cor do Pokémon?</h2>
+            <fieldset>
+                <legend>Cor</legend>
+                <ul>
+                    <li>
+                        <input type="radio" name="cores" id="amarelo" checked>
+                        <label for="amarelo">Amarelo</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="cores" id="azul">
+                        <label for="azul">Azul</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="cores" id="branco">
+                        <label for="branco">Branco</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="cores" id="cinza">
+                        <label for="cinza">Cinza</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="cores" id="marrom">
+                        <label for="marrom">Marrom</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="cores" id="preto">
+                        <label for="preto">Preto</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="cores" id="rosa">
+                        <label for="rosa">Rosa</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="cores" id="roxo">
+                        <label for="roxo">Roxo</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="cores" id="verde">
+                        <label for="verde">Verde</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="cores" id="vermelho">
+                        <label for="vermelho">Vermelho</label>
+                    </li>
+        </section>
+        <section>
+            <h2>Altura_m</h2>
+            <input type="number" name="altura" id= "altura" step= "1">
+        </section>
+        <section>
+            <h2>Peso_kg</h2>
+            <input type="number" name="peso" id= "peso" step= "1">
+        </section>
+        <section>
+            <h2>Taxa de captura</h2>
+            <input type="number" name="taxa_captura" id= "taxa_captura" step= "0" min="0" max="255">
+        </section>
+    </form>
+</body>
+</html>
